@@ -14,7 +14,7 @@ String reverse = "";
 for(int i = str.length() - 1; i >= 0; i--) {
 	reverse = reverse + str.charAt(i); //adds character at position i to reverse
 }
-System.out.println("Reverse string is:");
+System.out.println("\nReverse string is: \n");
 System.out.println(reverse); // Calls reverse
 	}
 }
